@@ -16,6 +16,7 @@ main {
 .main__title > img {
     max-height: 100px;
     object-fit: contain;
+    border-radius: 50%;
 }
 
 .main__greeting > h1 {

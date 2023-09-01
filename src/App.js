@@ -9,12 +9,10 @@ import './App.css'
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const openSidebar = () => {
-    console.log('abriu')
     setSidebarOpen(true)
   }
 
   const closeSidebar = () => {
-    console.log('fechou')
     setSidebarOpen(false)
   }
   return (
